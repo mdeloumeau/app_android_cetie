@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CETIE App</string>
+    <string name="photo_count">Nombre de photos : %1$d</string>
+    <string name="scanner_un_code_barres">Scanner un code-barres</string>
+    <string name="ou">ou</string>
+    <string name="entrez_un_num_affaire">Entrez un numéro d\'affaire</string>
+    <string name="ok">OK</string>
+    <string name="logo_cetie">Logo Cetie</string>
+</resources>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Image au-dessus du bouton -->
+    <ImageView
+        android:id="@+id/logoImage"
+        android:contentDescription="@string/logo_cetie"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:src="@drawable/logo_cetie"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="24dp"/>
+
+    <!-- Bouton Scan -->
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="700dp"
+        android:layout_height="wrap_content"
+        android:radius="16dp"
+        android:textSize="30sp"
+        android:text="@string/scanner_un_code_barres"/>
+
+    <!-- Texte "ou" -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ou"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"/>
+
+    <!-- Ligne avec EditText et bouton OK -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/editNumAffaire"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:imeOptions="actionDone"
+            android:hint="@string/entrez_un_num_affaire"
+            android:textSize="30sp"
+            android:inputType="number"
+            android:padding="10dp"/>
+
+        <Button
+            android:id="@+id/buttonEnter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ok"
+            android:textSize="30sp"
+            android:textAllCaps="false"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

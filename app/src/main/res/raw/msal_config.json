@@ -1,0 +1,17 @@
+{
+  "client_id": "5e722058-eeb0-47ba-92ab-a1acb0da20b8",
+  "redirect_uri": "msal5e722058-eeb0-47ba-92ab-a1acb0da20b8://auth",
+  "account_mode": "SINGLE",
+  "broker_redirect_uri_registered": false,
+  "authorities": [
+    {
+      "type": "AAD",
+      "audience": {
+        "type": "AzureADMyOrg",
+        "tenant_id": "69798bd7-8897-4dfe-9f84-1a861de23af6"
+      }
+    }
+  ]
+}
+
+

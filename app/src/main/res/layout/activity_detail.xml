@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textAffaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numéro d'affaire : "
+        android:textSize="25sp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="35dp"/>
+
+    <!-- Numéro d'affaire -->
+    <TextView
+        android:id="@+id/textNumAffaire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Numéro d'affaire"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="30dp"/>
+
+
+    <!-- Ligne Fiche Prod -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/buttonFP"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Fiche prod"
+            android:textSize="20sp"
+            android:paddingVertical="10dp"/>
+
+        <Button
+            android:id="@+id/buttonFPok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:text="OK"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#9E9E9E"
+            android:minWidth="0dp"
+            android:minHeight="0dp"/>
+    </LinearLayout>
+
+    <!-- Ligne PV élec -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/buttonPVEE"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="PV élec"
+            android:textSize="20sp"
+            android:paddingVertical="10dp"/>
+
+        <Button
+            android:id="@+id/buttonPVEEok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:text="OK"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#9E9E9E"
+            android:minWidth="0dp"
+            android:minHeight="0dp"/>
+    </LinearLayout>
+
+    <!-- Ligne PV autom -->
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/buttonPVEA"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="PV autom"
+            android:textSize="20sp"
+            android:paddingVertical="10dp"/>
+
+        <Button
+            android:id="@+id/buttonPVEAok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.4"
+            android:text="OK"
+            android:textSize="18sp"
+            android:textColor="#FFFFFF"
+            android:backgroundTint="#9E9E9E"
+            android:minWidth="0dp"
+            android:minHeight="0dp"/>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/textPhotoCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chargement"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:layout_gravity="center_horizontal"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/buttonPhoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prendre une photo"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"/>
+
+
+    <HorizontalScrollView
+        android:id="@+id/photoScroll"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_gravity="center_horizontal"
+        android:scrollbars="none"
+        android:paddingBottom="20dp">
+
+
+        <LinearLayout
+            android:id="@+id/photoContainer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="start"
+            android:padding="8dp"/>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/buttonValider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Valider le dossier"
+        android:textSize="20sp"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="16dp"
+        android:paddingBottom="16dp"/>
+
+
+
+</LinearLayout>
