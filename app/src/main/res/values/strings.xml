@@ -6,4 +6,11 @@
     <string name="entrez_un_num_affaire">Entrez un numéro d\'affaire</string>
     <string name="ok">OK</string>
     <string name="logo_cetie">Logo Cetie</string>
+    <string name="num_affaire">Numéro d\'affaire :</string>
+    <string name="fiche_prod">Fiche prod</string>
+    <string name="pv_elec">PV élec</string>
+    <string name="pv_autom">PV autom</string>
+    <string name="chargement">Chargement</string>
+    <string name="prendre_une_photo">Prendre une photo</string>
+    <string name="valider_le_dossier">Valider le dossier</string>
 </resources>
